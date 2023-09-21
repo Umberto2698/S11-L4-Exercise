@@ -30,7 +30,7 @@ const MainPage = () => {
           <Row>
             {articles &&
               articles.results.map((el) => (
-                <Col xs={4} key={el.id}>
+                <Col xs={4} key={el.id} className="my-3">
                   <ArticleCard article={el}></ArticleCard>
                 </Col>
               ))}
